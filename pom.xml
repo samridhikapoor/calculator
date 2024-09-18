@@ -30,10 +30,11 @@
 	<properties>
 		<!--<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
-		<sonar.qualitygate.wait>true</sonar.qualitygate.wait>
-		<sonar.qualitygate.failOnSonarQubeExitCode>true</sonar.qualitygate.failOnSonarQubeExitCode>
 		<maven.compiler.target>1.8</maven.compiler.target>-->
- 
+		
+ 		<sonar.qualitygate.wait>true</sonar.qualitygate.wait>
+		<sonar.qualitygate.failOnSonarQubeExitCode>true</sonar.qualitygate.failOnSonarQubeExitCode>
+		
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.language>java</sonar.language>
 		<sonar.host.url>http://localhost:9123</sonar.host.url>
